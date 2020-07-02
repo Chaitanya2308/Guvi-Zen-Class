@@ -1,0 +1,123 @@
+Task 2: Simple programs to do for operators:
+console.log("Task 2")
+console.log("Simple programs todo for Operators")
+//1. Square of a number
+var num=2;
+var square;
+square=2*2;
+console.log(square);
+
+//2. swapping of 2 numbers:
+var a=2,b=3,c;
+c=a;
+a=b;
+b=c;
+console.log(a,b);
+//3. Addition of 3 numbers
+var a=2,b=3,c=4,sum;
+sum=a+b+c;
+console.log(sum);
+
+//4. Celsius to fahrenheit
+var cel=97, fahren;
+fahren=(cel*9/5)+32;
+console.log(fahren);
+
+//5. Meter to miles
+var mil=5, met;
+met=1609.3448*mil;
+console.log(met);
+
+
+//6. pounds to kg
+var pounds=4, kg;
+kg=pounds*0.45359237;
+console.log(kg);
+
+//7. Calculating Batting average
+var total_score=500, avg;
+avg=(total_score/12).toFixed(2);
+console.log(avg);
+
+//8. Calculate five test scores and print their averages
+var t1=200, t2=300,t3=400,t4=500,t5=600,avg;
+avg=t1+t2+t3+t4+t5/5;
+console.log(avg);
+
+//9. Power of any number x^y
+var a=2,b=10,pow;
+pow=a**b;
+console.log(pow);
+
+//10. Calculate Simple Intrest
+var p=1000, t=2, r=5,si;
+si=p*t*r/100;
+console.log("Simple Intrest  : " + si);
+
+//11.Calculate area of equilateral Traingle
+var a=10, area;
+area=(1.732/4)*a*a;
+console.log("Area of Eqlilateral Triangle : "+area);
+
+//12.Area of Iscoles Triangle
+var a=10 , area;
+area=0.5*a*a;
+console.log("Area of Isosceles Triangle : "+area);
+
+//13.Volume of Sphere
+var r=3,vol;
+vol = ((4/3)*3.14*r*r*r).toFixed(2);
+console.log("Volume of Sphere : "+vol);
+
+//14.VOlume of prism
+var h=5,b1=10,b2=20,vol;
+vol=0.5*h*(b1+b2);
+console.log("Volume of prism : "+vol);
+
+//15.FInd area ofa triangle
+var a=5,b=6,vol;
+vol=0.5*b*h;
+console.log("Volume of Triangle : "+vol);
+
+//16.Given the actual cost and sold cost, Calculate Discount of Product
+var actual_cost=100, sold_cost=80,discount;
+discount=actual_cost-sold_cost;
+console.log("DIscount is : "+discount);
+
+//17.Given their radius of a circle and find its diameter, circumference and area.
+var r=10,diameter,circumference,area;
+diameter=2*r;
+circumference=(2*3.14*r).toFixed(2);
+area=3.14*r*r;
+console.log("Diameter : "+ diameter , "circumference  : "+circumference , "Area : "+ area);
+
+//18.Given two numbers and perform all arithmetic operations
+var a=10,b=5,add,sub,mul,div;
+add=a+b;
+mul=a*b;
+sub=a-b;
+div=a/b;
+console.log("Addition : "+ add, "Multiplication : "+mul, "Subtraction : "+ sub, " Division : "+ div);
+
+//19.Display the asterisk pattern as shown below(No loop needed):
+console.log("Astreik Pattern");
+console.log('*****')
+console.log('*****')
+console.log('*****')
+console.log('*****')
+console.log('*****')
+
+//20.Calculate electricity bill?
+//For example, a consumer consumes 100 watts per hour daily for one month. Calculate the total energy bill of that consumer if per unit rate is 10?
+
+var unit_rate=10,watts_consumed_in_hour=100,total_bill,monthly_consumed;
+monthly_consumed=watts_consumed_in_hour*24*30;
+total_bill=monthly_consumed*unit_rate;
+console.log("Total Electricty Bill : " +  total_bill);
+
+//21.Program To Calculate CGPA
+var per=90,cgpa;
+cgpa=(per/9.5).toFixed(1);
+console.log("CGPA : " + cgpa);
+
+
