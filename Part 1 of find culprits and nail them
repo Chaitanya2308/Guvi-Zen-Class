@@ -1,0 +1,124 @@
+In part 1 of find the culprits
+
+prob 1:
+the ending and closing of the string has to be same quotaion marks
+
+prob 2:
+the external js file declared and the file invoked the html are differnet
+
+prob 3:
+
+fix.html
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="scripts.js"></script>
+ <!--This is used to load the external js file into the html file-->
+</body>
+</html>
+
+scripts.js
+
+alert("I'm JavaScript!");
+alert('Hello'); // this line is not having semicolon
+alert(`Wor
+ ld`);
+alert(3 +
+1
++ 2); // this is multiple line code and its working
+
+//If you are using only one statement in a line, in this case it can be omitted, in case of multiple statement in a line, it is required to use semicolon for termination.
+
+
+
+prob 4:
+
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+" "+lname;
+alert( admin ); // "Guvi geek
+
+prob 5:
+
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek";
+let name = fname+" "+lname;
+alert( 'hello ' + name );
+
+prob 6
+
+let a = parseInt(prompt("First number?"));
+let b = parseInt(prompt("Second number?"));
+alert(a+b);
+
+prob 7
+
+change the numbers into the parseint
+
+prob 8 :
+
+if we declare the a value to null it takes as false and prints false
+
+prob 9:
+
+get the input using parseInt
+
+prob 10:
+
+
+prob 11:
+
+
+
+prob 12:
+
+
+prob 13:
+
+
+prob 14:
+//You can change only 2 characters
+let i = 3;
+while (i) {
+  console.log( i-- );
+}
+
+prob 15:
+
+
+prob 16:
+//You are allowed to modify only one character 
+for (let num = 2; num <= 20; num += 2) {
+  console.log(num)
+}
+
+prob 17:let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log('Wrapped ' + gifts[i] +' and added a bow!');
+}
+
+prob 18:
+let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown == 0)
+  {
+  	break;
+   console.log("bomb triggered");
+  }
+}
+
+
+prob 19:
+
+we cannot add number and a string
+
+prob 20:
+
+
+try again;
+
+
